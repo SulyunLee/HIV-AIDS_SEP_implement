@@ -1,4 +1,4 @@
-# Predictin of HIV/AIDS infections in Syringe Exchange Program Implementation
+# Prediction of HIV/AIDS infections in Syringe Exchange Program Implementation
 ## Summary
 There is an ongoing comfliction on the implementation of syringe dispensing and disposal program (also known as syringe exchange program, or SEP) for people who inject drugs. Some believe that the cost of implementing the program is expensive compared to the possible benefit. However, we argue that implementing the SEPs would significantly reduce the HIV/AIDS infections by providing sanitary needles and accessible disposal programs. We aim to analyze the national impact of SEPs in the United States when they are legalized in state-level. We predicted the numbers of HIV/AIDS infections and deaths when SEPs are legalized or when they are made illegal in every state. We also experimented on a case study in Iowa, where only two SEPs exist in the state but not legalized.
 
