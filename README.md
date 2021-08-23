@@ -1,6 +1,6 @@
 # Prediction of HIV/AIDS infections in Syringe Exchange Program Implementation
 ## Summary
-There is an ongoing conflict on the implementation of a syringe dispensing and disposal program (also known as a syringe exchange program, or SEP) for people who inject drugs. Some believe that the cost of implementing the program is expensive compared to the possible benefit. However, we argue that implementing the SEPs would significantly reduce HIV/AIDS infections by providing sanitary needles and accessible disposal programs. We aim to analyze the national impact of SEPs in the United States when they are legalized at the state level. We predicted the numbers of HIV/AIDS infections and deaths when SEPs are legalized or when they are made illegal in every state. We also experimented on a case study in Iowa, where only two SEPs exist in the state but are not legalized.
+There is an ongoing conflict on the implementation of a syringe dispensing and disposal program (also known as a syringe exchange program, or SEP) for people who inject drugs. Some believe that the cost of implementing the program is expensive compared to the possible benefit. However, we argue that implementing the SEPs would significantly reduce HIV/AIDS infections by providing sanitary needles and accessible disposal programs. We aim to analyze the national impact of SEPs in the United States when more programs are implemented, or programs are legalized at the state level. We predicted the numbers of HIV/AIDS infections and deaths when 1) the number of SEPs are increased/decreased or 2) the SEPs are legalized/illegalized in every state. We also experimented on a case study in Iowa, where only two SEPs exist in the state but are not legalized.
 
 ## Data
 We collected data for HIV/AIDS diagnoses and deaths due to injectable drug use from CDC AtlasPlus (https://www.cdc.gov/nchhstp/atlas). We also collected the data for the number of each state's available SEPs and legality of SEPs from The Foundation for AIDS Research (amFAR) (https://www.amfar.org). We used the state-level data between 2011 and 2017 to train the model for the prediction.
@@ -9,7 +9,7 @@ We collected data for HIV/AIDS diagnoses and deaths due to injectable drug use f
 ### Variables
 * Outcome Variable: HIV diagnoses per 10,0000, HIV deaths per 10,0000, AIDS diagnoses per 10,0000, AIDS deaths per 10,0000
 * Predictors: Number of SEPs or SEP legality in each state
-* Confounders: rate of population without a high schooldiploma, rate of uninsured individuals, rate of each race (American Indian/Alaskan Native, Asian, Black/African American, Native Hawaiian/Other pacific islander, and White), comorbidity of syphilis cases, Ryan White (federal funding for HIV/AIDS treatment) client rate.
+* Confounders: rate of the population without a high school diploma, rate of uninsured individuals, rate of each race (American Indian/Alaskan Native, Asian, Black/African American, Native Hawaiian/Other pacific islander, and White), comorbidity of syphilis cases, Ryan White (federal funding for HIV/AIDS treatment) client rate.
 
 ### ML models
 Linear regression and random forest
